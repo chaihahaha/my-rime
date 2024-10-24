@@ -1129,32 +1129,32 @@ preset_keyboards:
     ascii_mode: 1
     keys:
     
-      - {click: '{}{Left}', long_click: '【】{Left}', key_back_color: bgn, key_text_color: tgn}
-      - {click: '+', long_click: '#', key_back_color: bgn, key_text_color: tgn}
-      - {click: 1}
-      - {click: 2}
-      - {click: 3}
-      - {click: space1, key_back_color: bgn, key_text_color: tgn}
-
-      - {click: '_', long_click: '[]{Left}', key_back_color: bgn, key_text_color: tgn}
+      - {click: '=', long_click: '≠', key_back_color: bgn, key_text_color: tgn}
+      - {click: '+', long_click: '(){Left}', key_back_color: bgn, key_text_color: tgn}
       - {click: '-', long_click: '%', key_back_color: bgn, key_text_color: tgn}
-      - {click: 4}
-      - {click: 5}
-      - {click: 6}
-      - {label: EN, click: Keyboard_defaulten, key_back_color: bgn, key_text_color: tgn}
-
-      - {click: '(){Left}', long_click: '@', key_back_color: bgn, key_text_color: tgn}
-      - {click: '*', long_click: '±', key_back_color: bgn, key_text_color: tgn}
       - {click: 7, long_click: select_all}
       - {click: 8, long_click: copy}
       - {click: 9, long_click: paste_clip, swipe_down: paste}
+
+      - {click: space1, key_back_color: bgn, key_text_color: tgn}
+      - {click: '*', long_click: '@', key_back_color: bgn, key_text_color: tgn}
+      - {click: '/', long_click: '\', key_back_color: bgn, key_text_color: tgn}
+      - {click: 4}
+      - {click: 5}
+      - {click: 6}
+
       - {click: BackSpace, key_back_color: bbs, key_text_color: tbs}
+      - {click: ., long_click: Keyboard_bqrw, key_back_color: bgn, key_text_color: tgn}
+      - {label: '⇧', click: 'Up', key_back_color: bgn, key_text_color: tgn}
+      - {click: 1}
+      - {click: 2}
+      - {click: 3}
 
       - {click: Keyboard_default, long_click: ':', key_back_color: bgn, key_text_color: 'tgn'}
-      - {click: '/', long_click: '\', key_back_color: bgn, key_text_color: tgn}
-      - {click: ., long_click: Keyboard_bqrw, key_back_color: bgn, key_text_color: tgn}
+      - {label: '⇦', click: 'Left', long_click: 'Left1', key_back_color: bgn, key_text_color: tgn}
+      - {label: '⇩', click: 'Down', key_back_color: bgn, key_text_color: tgn}
+      - {label: '⇨', click: 'Right', long_click: 'Right1', key_back_color: bgn, key_text_color: tgn}
       - {click: 0, long_click: cut}
-      - {click: '=', long_click: '≠', key_back_color: bgn, key_text_color: tgn}
       - {click: Return, long_click: Menu, key_back_color: benter, key_text_color: tenter}
       
   numberb:
@@ -4027,7 +4027,7 @@ preset_keys:
   # 22自定义功能键
   Keyboard_fbjzj: {label: 助记, functional: false, send: Eisu_toggle, select: fbjzj}
   Keyboard_fbj: {label: 風, functional: false, send: Eisu_toggle, select: fbj}
-  Keyboard_defaulten: {label: EN, functional: false, send: Eisu_toggle, select: letter}
+  Keyboard_defaulten: {label: EN, functional: false, send: Eisu_toggle, select: letter} # TODO: remove it
   Schema_switchen1: {label: EN, send: Control+Shift+5, functional: true}
   Schema_switchen: {label: EN, send: Control+Shift+5, functional: false}
   Schema_switchcn: {label: 中文, send: Control+Shift+6, functional: false}
