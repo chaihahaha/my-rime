@@ -3,8 +3,8 @@ patch:
   translator/enable_user_dict: false
   translator/enable_sentence: false
   speller/max_code_length: 4
-  speller/auto_select: true
-  speller/auto_select_unique_candidate: true
+  speller/auto_select: false
+  speller/auto_select_unique_candidate: false
   #reverse_lookup/prefix: "\/"
   #recognizer/patterns/reverse_lookup: "^\/[a-z]*'?$"
 
