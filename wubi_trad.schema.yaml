@@ -32,7 +32,6 @@ engine:
   processors:
     - ascii_composer
     - recognizer
-    - key_binder
     - speller
     - punctuator
     - selector
@@ -82,9 +81,6 @@ simplifier:
   option_name: zh_trad
 
 punctuator:
-  import_preset: default
-
-key_binder:
   import_preset: default
 
 recognizer:

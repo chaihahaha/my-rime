@@ -25,7 +25,6 @@ engine:
   processors:
     - ascii_composer
     - recognizer
-    - key_binder
     - speller
     - punctuator
     - selector
@@ -82,8 +81,6 @@ reverse_lookup:
 punctuator:
   import_preset: symbols
 
-key_binder:
-  import_preset: default
 
 recognizer:
   import_preset: default

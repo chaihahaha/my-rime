@@ -25,7 +25,6 @@ engine:
   processors:
     - ascii_composer
     - selector
-    - key_binder
     - speller
     - punctuator  # 先於 editor 才會使空格作符號上屏
     - navigator
@@ -68,20 +67,3 @@ ascii_composer:
     Shift_L: noop
     Shift_R: noop
 
-key_binder:
-  bindings:
-    - {accept: "Control+Shift+1", select: .next, when: always}
-    - {accept: "Control+Shift+n", select: japanese, when: always}
-    - {accept: "Control+Shift+N", select: japanese, when: always}
-    - {accept: "Control+Shift+k", select: korean, when: always}
-    - {accept: "Control+Shift+K", select: korean, when: always}
-    - {accept: "Control+Shift+v", select: vietnamese, when: always}
-    - {accept: "Control+Shift+V", select: vietnamese, when: always}
-    - {accept: "Control+Shift+j", select: double_jyutping_extra, when: always}
-    - {accept: "Control+Shift+J", select: double_jyutping_extra, when: always}
-    - {accept: "Control+Shift+m", select: td_pinyin_flypy_extra, when: always}
-    - {accept: "Control+Shift+M", select: td_pinyin_flypy_extra, when: always}
-    - {accept: "Control+Shift+l", select: international, when: always}
-    - {accept: "Control+Shift+L", select: international, when: always}
-    - {accept: "F16", select: td_pinyin_flypy_extra, when: always}
-    - {accept: "F19", select: .next, when: always}

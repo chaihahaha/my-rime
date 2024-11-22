@@ -1057,8 +1057,8 @@ preset_keyboards:
       - {click: x, long_click: '{', swipe_up: "}", key_back_color: bh3, key_text_color: th3}
       - {click: c, long_click: copy, swipe_up: paste, key_back_color: bh3, key_text_color: th3}
       - {click: v, long_click: '[', swipe_up: "]", key_back_color: bh3, key_text_color: th3}
-      - {click: b, long_click: ";", key_back_color: bh3, key_text_color: th3}
-      - {click: n, long_click: ":", key_back_color: bh3, key_text_color: th3}
+      - {click: b, long_click: ":", swipe_up: ";", key_back_color: bh3, key_text_color: th3}
+      - {click: n, long_click: "|", swipe_up: "\\", key_back_color: bh3, key_text_color: th3}
       - {click: m, long_click: '"', swipe_up: "'", key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
 
@@ -1067,7 +1067,7 @@ preset_keyboards:
       - {click: ',', label: '，', long_click: '`', key_back_color: bh4, key_text_color: th4}
       - {click: space, long_click: Mode_switch, swipe_left: "Left", swipe_right: "Right", swipe_up: Schema_switchcn, width: 30, key_back_color: bkg, key_text_color: tkg}
       - {click: '.', label: '。', long_click: liquid_keyboard_clipboard, key_back_color: bh4, key_text_color: th4}
-      - {click: '/', long_click: liquid_keyboard_switch , swipe_left: "\\", key_text_size: "18", key_back_color: bh4, key_text_color: th4}
+      - {click: '/', long_click: liquid_keyboard_switch , key_text_size: "18", key_back_color: bh4, key_text_color: th4}
       - {click: Return, composing: Return1, swipe_up: Escape, width: 15, key_back_color: benter, key_text_color: tenter}
 
   letter:
@@ -1105,8 +1105,8 @@ preset_keyboards:
       - {click: x, long_click: '{', swipe_up: "}", key_back_color: bh3, key_text_color: th3}
       - {click: c, long_click: copy, swipe_up: paste, key_back_color: bh3, key_text_color: th3}
       - {click: v, long_click: '[', swipe_up: "]", key_back_color: bh3, key_text_color: th3}
-      - {click: b, long_click: ";", key_back_color: bh3, key_text_color: th3}
-      - {click: n, long_click: ":", key_back_color: bh3, key_text_color: th3}
+      - {click: b, long_click: ":", swipe_up: ";", key_back_color: bh3, key_text_color: th3}
+      - {click: n, long_click: "|", swipe_up: "\\", key_back_color: bh3, key_text_color: th3}
       - {click: m, long_click: '"', swipe_up: "'", key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
 
@@ -1115,7 +1115,7 @@ preset_keyboards:
       - {click: ',', label: '，', long_click: '`', key_back_color: bh4, key_text_color: th4}
       - {click: space, long_click: Mode_switch, swipe_left: "Left", swipe_right: "Right", swipe_up: Schema_switchcn, width: 30, key_back_color: bkg, key_text_color: tkg}
       - {click: '.', label: '。', long_click: liquid_keyboard_clipboard, key_back_color: bh4, key_text_color: th4}
-      - {click: '/', long_click: liquid_keyboard_switch , swipe_left: "\\", key_text_size: "18", key_back_color: bh4, key_text_color: th4}
+      - {click: '/', long_click: liquid_keyboard_switch , key_text_size: "18", key_back_color: bh4, key_text_color: th4}
       - {width: 5, key_back_color: bh2, key_text_color: th2}
 
       - {label: '______', click: space, long_click: space_R2, swipe_left: "Left", swipe_right: "Right", swipe_up: Keyboard_fbj, width: 30, key_back_color: bkg, key_text_color: tkg}
