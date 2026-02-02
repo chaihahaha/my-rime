@@ -1207,6 +1207,8 @@ preset_keyboards:
         key_back_color: bh3
         key_text_color: th3
         long_click: '|'
+        swipe_up: '/'
+        swipe_down: "\\"
       - click: m
         key_back_color: bh3
         key_text_color: th3
@@ -1220,21 +1222,15 @@ preset_keyboards:
         key_back_color: bgn
         key_text_color: tgn
         long_click: Menu
+        swipe_up: Theme_settings
+        swipe_down: Color_switch
         width: 10
       - click: Keyboard_bqrw
         key_back_color: bgn
         key_text_color: tgn
         key_text_size: 18
-        long_click: Theme_settings
-        swipe_down: Color_switch
-        swipe_up: Color_switch
+        long_click: liquid_keyboard_switch 
         width: 10
-      - click: '.'
-        key_back_color: bh4
-        key_text_color: th4
-        label: "。"
-        long_click: ','
-        swipe_up: '`'
       - click: space
         key_back_color: bkg
         key_text_color: tkg
@@ -1242,13 +1238,13 @@ preset_keyboards:
         swipe_left: Left
         swipe_right: Right
         swipe_up: Schema_switchcn
-        width: 45
-      - click: /
+        width: 55
+      - click: '.'
         key_back_color: bh4
         key_text_color: th4
-        key_text_size: 18
-        long_click: liquid_keyboard_switch
-        swipe_up: "\\"
+        label: "。"
+        long_click: '`'
+        swipe_up: ','
       - click: Return
         composing: Return1
         key_back_color: benter
