@@ -1083,61 +1083,61 @@ preset_keyboards:
         key_text_color: th1
         long_click: 1
         swipe_up: '₁'
-        swipe_down: '∀'
+        swipe_left: '∀'
       - click: w
         key_back_color: bh1
         key_text_color: th1
         long_click: 2
         swipe_up: 'ᵢ'
-        swipe_down: '∃'
+        swipe_left: '∃'
       - click: e
         key_back_color: bh1
         key_text_color: th1
         long_click: 3
         swipe_up: 'ₙ'
-        swipe_down: '∂'
+        swipe_left: '∂'
       - click: r
         key_back_color: bh1
         key_text_color: th1
         long_click: 4
         swipe_up: 'α'
-        swipe_down: '∩'
+        swipe_left: '∩'
       - click: t
         key_back_color: bh1
         key_text_color: th1
         long_click: 5
         swipe_up: 'β'
-        swipe_down: '∪'
+        swipe_left: '∪'
       - click: y
         key_back_color: bh1
         key_text_color: th1
         long_click: 6
         swipe_up: 'γ'
-        swipe_down: '∑'
+        swipe_left: '∑'
       - click: u
         key_back_color: bh1
         key_text_color: th1
         long_click: 7
         swipe_up: 'δ'
-        swipe_down: '∫'
+        swipe_left: '∫'
       - click: i
         key_back_color: bh1
         key_text_color: th1
         long_click: 8
         swipe_up: 'ε'
-        swipe_down: '∈'
+        swipe_left: '∈'
       - click: o
         key_back_color: bh1
         key_text_color: th1
         long_click: 9
         swipe_up: 'θ'
-        swipe_down: '∉'
+        swipe_left: '∉'
       - click: p
         key_back_color: bh1
         key_text_color: th1
         long_click: 0
         swipe_up: 'φ'
-        swipe_down: '⊂'
+        swipe_left: '⊂'
       - key_back_color: bh2
         key_text_color: th2
         width: 5
