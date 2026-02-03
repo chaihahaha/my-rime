@@ -1258,7 +1258,7 @@ preset_keyboards:
         swipe_left: Left
         swipe_right: Right
         swipe_up: Schema_switchcn
-        width: 65
+        width: 60
       - click: '.'
         key_back_color: bh4
         key_text_color: th4
@@ -1269,12 +1269,9 @@ preset_keyboards:
         composing: Return1
         key_back_color: benter
         key_text_color: tenter
-        label_symbol: wiki
-        popup:
-        - TrimeWiki
-        - Settings
+        long_click: Settings
         swipe_up: Escape
-        width: 5
+        width: 10
     name: "26键默认布局"
     width: 10
   editor:
