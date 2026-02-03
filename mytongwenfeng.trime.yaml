@@ -1258,7 +1258,7 @@ preset_keyboards:
         swipe_left: Left
         swipe_right: Right
         swipe_up: Schema_switchcn
-        width: 55
+        width: 65
       - click: '.'
         key_back_color: bh4
         key_text_color: th4
@@ -1274,7 +1274,7 @@ preset_keyboards:
         - TrimeWiki
         - Settings
         swipe_up: Escape
-        width: 15
+        width: 5
     name: "26键默认布局"
     width: 10
   editor:
