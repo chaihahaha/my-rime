@@ -1,5 +1,6 @@
 patch:
-  translator/dictionary: fcitx_wbx.092m
+  translator/dictionary: wubi86_merged
+  translator/enable_charset_filter: false
   translator/enable_user_dict: false
   translator/enable_sentence: false
   speller/max_code_length: 4
