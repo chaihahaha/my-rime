@@ -1227,7 +1227,7 @@ preset_keyboards:
         key_back_color: bgn
         key_text_color: tgn
         long_click: Menu
-        swipe_up: Theme_settings
+        swipe_up: VOICE_ASSIST
         swipe_down: Color_switch
         width: 10
       - click: Keyboard_bqrw
